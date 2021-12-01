@@ -1,0 +1,30 @@
+*{
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
+
+header {
+    background: rgb(204, 202, 198);
+    height: 100px;
+    display: flex;
+
+    align-items: center;
+}
+
+body {
+    background-image: url("/WU_2A_ProjektHT21/img/matt-hoffman-AYdJM-HiSUM-unsplash.jpg"); 
+    background-size: 100%;
+   
+}
+#car_img {
+   height: 100px; 
+   width: auto;
+}
+
+.hamburger_line {
+    background: rgb()
+
+
+}
