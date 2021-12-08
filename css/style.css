@@ -1,30 +1,71 @@
 *{
-    height: 100%;
+    margin: 0;
 }
-body {
-    min-height: 100%;
+.GridWrapper {
+
+    width: 100vw;
+    display: grid;
+    height: 100vh;
+    background-color: black;
+   grid-template-areas:
+
+   "he he he he"
+   "s1 s1 s1 s1"
+   "s2 s2 s2 s2"
+   "fo fo fo fo"
+;
+grid-template-columns:1fr 1fr 1fr;
+grid-template-rows: 80px 800px 800px 400px 65px;
+grid-gap: 4px;
+background-color: black;
+
 }
 
-header {
-    background: rgb(204, 202, 198);
+.header {
+    grid-area: he;
+    background: rgb(36, 28, 28);
     height: 100px;
     display: flex;
 
     align-items: center;
+    
 }
 
-body {
-    background-image: url("/WU_2A_ProjektHT21/img/matt-hoffman-AYdJM-HiSUM-unsplash.jpg"); 
-    background-size: 100%;
-   
-}
-#car_img {
-   height: 100px; 
-   width: auto;
+.footer {
+    grid-area: fo;
+    background-image:url(/WU_2A_ProjektHT21/img/matt-hoffman-72qDM1TA5p8-unsplash.jpg);
 }
 
-.hamburger_line {
-    background: rgb()
-
-
+.section_1 {
+    grid-area: s1;
+    background-image:url(/WU_2A_ProjektHT21/img/matt-hoffman-AYdJM-HiSUM-unsplash.jpg);
+    background-size: 1700px;
+    
 }
+
+.section_2 {
+    grid-area: s2;
+    background-image:url(/WU_2A_ProjektHT21/img/matt-hoffman-72qDM1TA5p8-unsplash.jpg);
+    background-size: 1700px;
+}
+
+.aside {
+    grid-area: as;
+    background: red;
+}
+
+.section_3 {
+    grid-area: s3;
+    background: blanchedalmond;
+}
+
+.section_4 {
+    grid-area: s4;
+    background: green;
+}
+
+.section_5 {
+    grid-area: s5;
+    background: grey;
+}
+
