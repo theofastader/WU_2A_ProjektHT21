@@ -1,7 +1,7 @@
 *{
     margin: 0;
 }
-.GridWrapper {
+.GridWrapper_index {
 
     width: 100vw;
     display: grid;
@@ -9,20 +9,20 @@
     background-color: black;
    grid-template-areas:
 
-   "he he he he"
-   "s1 s1 s1 s1"
-   "s2 s2 s2 s2"
-   "fo fo fo fo"
+   "hei hei hei hei"
+   "s1i s1i s1i s1i"
+   "s2i s2i s2i s2i"
+   "foi foi foi foi"
 ;
 grid-template-columns:1fr 1fr 1fr;
 grid-template-rows: 80px 800px 800px 400px 65px;
-grid-gap: 4px;
+grid-gap: 0px;
 background-color: black;
 
 }
 
-.header {
-    grid-area: he;
+.header_index {
+    grid-area: hei;
     background: rgb(36, 28, 28);
     height: 100px;
     display: flex;
@@ -31,41 +31,113 @@ background-color: black;
     
 }
 
-.footer {
-    grid-area: fo;
+.footer_index {
+    grid-area: foi;
     background-image:url(/WU_2A_ProjektHT21/img/matt-hoffman-72qDM1TA5p8-unsplash.jpg);
+    background-size: 1670px;
 }
 
-.section_1 {
-    grid-area: s1;
+.section_1_index {
+    grid-area: s1i;
     background-image:url(/WU_2A_ProjektHT21/img/matt-hoffman-AYdJM-HiSUM-unsplash.jpg);
-    background-size: 1700px;
+    background-size: 1670px;
     
 }
 
-.section_2 {
-    grid-area: s2;
+.section_2_index {
+    grid-area: s2i;
     background-image:url(/WU_2A_ProjektHT21/img/matt-hoffman-72qDM1TA5p8-unsplash.jpg);
-    background-size: 1700px;
+    background-size: 1670px;
 }
 
-.aside {
-    grid-area: as;
-    background: red;
+.GridWrapper_meny {
+
+    width: 100vw;
+    display: grid;
+    height: 100vh;
+    background-color: black;
+   grid-template-areas:
+
+   "hem hem hem hem"
+   "s1m s1m s1m s1m"
+   "s1m s1m s1m s1m"
+   "fom fom fom fom"
+;
+grid-template-columns:1fr 1fr 1fr;
+grid-template-rows: 80px 800px 800px 400px 65px;
+grid-gap: 4px;
+background-color: black;
+
 }
 
-.section_3 {
-    grid-area: s3;
-    background: blanchedalmond;
+.header_meny {
+    grid-area: hem;
+    background: rgb(36, 28, 28);
+    height: 100px;
+    display: flex;
+
+    align-items: center; 
+    
 }
 
-.section_4 {
-    grid-area: s4;
-    background: green;
+.footer_meny {
+    grid-area: fom;
+    background: rgb(36, 28, 28);
+    height: 400px;
 }
 
-.section_5 {
-    grid-area: s5;
-    background: grey;
+.section_1_meny {
+    grid-area: s1m;
+    background: black;
+    
+
 }
 
+
+.GridWrapper_omoss {
+
+    width: 100vw;
+    display: grid;
+    height: 100vh;
+    background-color: black;
+   grid-template-areas:
+
+   "heo heo heo heo"
+   "s1o s1o s1o s1o"
+   "s2o s2o s2o s2o"
+   "foo foo foo foo"
+;
+grid-template-columns:1fr 1fr 1fr;
+grid-template-rows: 80px 800px 800px 400px 65px;
+grid-gap: 4px;
+background-color: black;
+
+}
+
+.header_omoss {
+    grid-area: heo;
+    background: rgb(36, 28, 28);
+    height: 100px;
+    display: flex;
+
+    align-items: center;
+    
+}
+
+.footer_omoss {
+    grid-area: foo;
+    background-image:url(/WU_2A_ProjektHT21/img/matt-hoffman-72qDM1TA5p8-unsplash.jpg);
+}
+
+.section_1_omoss {
+    grid-area: s1o;
+    background-image:url(/WU_2A_ProjektHT21/img/matt-hoffman-AYdJM-HiSUM-unsplash.jpg);
+    background-size: 1670px;
+    
+}
+
+.section_2_omoss {
+    grid-area: s2o;
+    background-image:url(/WU_2A_ProjektHT21/img/matt-hoffman-72qDM1TA5p8-unsplash.jpg);
+    background-size: 1670px;
+}
